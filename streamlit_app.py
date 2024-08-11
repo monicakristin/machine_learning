@@ -86,7 +86,7 @@ st.dataframe(df_prediction_proba, column_config ={'Adelie':st.column_config.Prog
   format='%f',
   width='medium',
   min_value=0,
-  max_value=1),}hide_index = True)
+  max_value=1)}hide_index = True)
                                                   
 st.success(str(penguins_species[prediction][0]))
 penguins_species = np.array(['Adelie', 'Chinstrap', 'Gentoo']
